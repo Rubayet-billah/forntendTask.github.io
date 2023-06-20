@@ -1,0 +1,45 @@
+.container {
+  height: 510px;
+  width: 800px;
+  align-items: center;
+  background-color: rgb(255, 83, 109);
+  font-family: "Open Sans", sans-serif;
+}
+
+.box {
+  height: 400px;
+  width: 800px;
+  background-color: rgb(255, 217, 50);
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  align-items: center;
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 75%,
+    75% 75%,
+    50% 90%,
+    25% 75%,
+    0% 75%
+  );
+}
+
+.text {
+  font-size: 30px;
+
+  font-weight: bold;
+  color: white;
+}
+.smile {
+  background-color: rgba(128, 128, 128, 0.594);
+  height: 80px;
+  width: 80px;
+  font-size: 30px;
+  font-weight: 700;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(96, 96, 96, 0.77);
+}
