@@ -43,3 +43,25 @@
   align-items: center;
   color: rgba(96, 96, 96, 0.77);
 }
+
+ /* Media query for screens with a maximum width of 600px (mobile devices) */
+    @media (max-width: 600px) {
+      .container {
+        height: auto;
+      }
+
+      .box {
+        height: auto;
+        padding-top: 40px;
+      }
+
+      .text {
+        font-size: 24px;
+      }
+
+      .smile {
+        height: 60px;
+        width: 60px;
+        font-size: 24px;
+      }
+    }
